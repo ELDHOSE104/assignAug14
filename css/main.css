@@ -1,0 +1,65 @@
+
+body
+{
+   padding-top: 50px;
+   padding-bottom: 20px;
+}
+.logo
+{
+   padding-top: 1px;
+   height: 50px;
+   width: 60px;
+   position: fixed;
+}
+.divOne
+{
+   position:relative;
+   width: 33.28%;
+   float: left;
+}
+.bottomImageOne
+{
+   position:relative;
+   top: 10px;
+   height: 70px;
+   width: 70px;
+   z-index: 4;
+}
+.bottomImageTwo
+{
+   position:relative;
+   top: 10px;
+   left: 40%;
+   height: 70px;
+   width: 70px;
+   z-index: 4;
+}
+.bottomImageThree
+{
+   position:relative;
+   top: 10px;
+   left: 80%;
+   height: 70px;
+   width: 70px;
+   z-index: 4;
+}
+.navBar
+{
+   height: 90px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
