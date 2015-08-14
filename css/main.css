@@ -58,9 +58,8 @@ body
    bottom: 0;
    left: 0;
    background: rgba(0,0,0,0.8);
-   z-index: 99999;
+   z-index: 10;
    opacity:0;
-   -webkit-transition: opacity 400ms ease-in;
    -moz-transition: opacity 400ms ease-in;
    transition: opacity 400ms ease-in;
    pointer-events: none;
@@ -71,15 +70,15 @@ body
 }
 
 .modalDialog > div {
+   top: 20%;
    width: 400px;
    position: relative;
    margin: 10% auto;
    padding: 5px 20px 13px 20px;
    border-radius: 10px;
-   background: #fff;
-   background: -moz-linear-gradient(#fff, #999);
-   background: -webkit-linear-gradient(#fff, #999);
-   background: -o-linear-gradient(#fff, #999);
+   background: #b92c28;
+   background: -moz-linear-gradient(#afd9ee, #269abc);
+
 }
 
 
@@ -102,7 +101,7 @@ body
    box-shadow: 1px 1px 3px #000;
 }
 
-.close:hover { background: #00d9ff; }
+.close:hover { background:#b92c28; }
 
 /*Model window end*/
 
